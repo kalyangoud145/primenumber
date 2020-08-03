@@ -1,4 +1,5 @@
 #!/bin/bash -x
+echo "Welcoming prime number simulation "
 read -p "Enter the number " n
 flag=0
 for (( i=2;i <= $n/2 ;i++))
